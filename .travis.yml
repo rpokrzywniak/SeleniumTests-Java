@@ -1,1 +1,12 @@
 language: java
+
+env:
+  - MOZ-HEADLESS=1
+  
+addons:
+  firefox: latest
+  
+script:
+  - chmod +x resources/geckodriver
+  - chmod +x resources/chromedriver
+  - mvn clean integration-test
