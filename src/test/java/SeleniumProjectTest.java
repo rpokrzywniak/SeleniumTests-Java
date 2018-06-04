@@ -94,13 +94,13 @@ public class SeleniumProjectTest {
 	}
 
 	// Form
-	/*@Test
-	public void e() {
-		int numberOfFields = 4;
-		int numberOfAddedRules = page.form();
-		
-		assertEquals(numberOfAddedRules, numberOfFields * 3);
-	}*/
+	//@Test
+	//public void e() {
+	//	int numberOfFields = 4;
+	//	int numberOfAddedRules = page.form();
+	//	
+	//	assertEquals(numberOfAddedRules, numberOfFields * 3);
+	//}
 
 	@Test
 	public void f() {
